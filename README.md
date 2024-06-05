@@ -1,4 +1,2 @@
 # Tournament
-PadelLeague
-Futsal
-Tennis
+PadelLeague, Futsal, Tennis
