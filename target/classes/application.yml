@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 5072
 spring:
   application:
     name: "tournament"
@@ -7,9 +7,9 @@ spring:
     active: "prod"
   datasource:
     driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
-    url: jdbc:sqlserver://192.168.1.15;databaseName=FindYourTournament  #FindYourTournament
+    url: jdbc:sqlserver://192.168.1.15;databaseName=FindYourTournament;encrypt=true;trustServerCertificate=true;
     username: sa
-    password: scintille2020 #scintille2020
+    password: scintille2020
   jpa:
     show-sql: true
     properties:
